@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+.container {
+    width: 100%; /* Full width */
+    padding: 0 2%; /* Padding on the sides */
+}
+
+.column {
+    width: 30%; /* Each column takes 30% of the container */
+    float: left; /* Aligns columns next to each other */
+}
+img {
+    max-width: 100%; /* Image will not exceed the width of its container */
+    height: auto; /* Maintains aspect ratio */
+}
+/* Base styles for mobile */
+body {
+    font-size: 14px;
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px; /* Increase font size for tablets and desktops */
+    }
+}
+.flex-container {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    justify-content: space-between; /* Distributes space between items */
+}
+
+.flex-item {
+    flex: 1; /* Each item will grow equally */
+    margin: 10px; /* Adds space around items */
+}
+.grid-container {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between grid items */
+}
+
+.grid-item {
+    background-color: #f0f0f0; /* Background color for grid items */
+    padding: 20px; /* Padding inside grid items */
+}
